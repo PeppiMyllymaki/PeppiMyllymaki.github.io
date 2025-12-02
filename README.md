@@ -87,7 +87,7 @@
                     features and polish.
                 </p>
 
-                <a href="https://gamelab.fi" target="_blank" class="accordion-button">
+                <a href="https://gamelab.fi/" target="_blank" class="accordion-button">
                     Visit the website →
                 </a>
 
