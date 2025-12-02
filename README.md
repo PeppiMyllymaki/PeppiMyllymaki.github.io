@@ -24,7 +24,7 @@
     <section id="about" class="section">
         <h2>About Me</h2>
         <div class="about-content">
-            <img src="../IMG/pikkupeppi.png" alt="My Photo" class="profile-pic">
+            <img src="img/pikkupeppi.png" alt="My Photo" class="profile-pic">
             <p>
                 I'm a game programming engineering student finishing my degree. I combine my 
                 technical coding skill with strong visual and creative capabilities.
@@ -292,7 +292,7 @@
           <div class="accordion-panel">
             <div class="media-grid">
               <!-- Add images for this group -->
-              <!-- <img src="../IMG/pic1.jpg" class="media-item"> -->
+              <!-- <img src="img/pic1.jpg" class="media-item"> -->
                <img src="img/crimescene.png" class="media-item">
                <img src="img/plant5.png" class="media-item">
                <img src="img/plant2.png" class="media-item">
