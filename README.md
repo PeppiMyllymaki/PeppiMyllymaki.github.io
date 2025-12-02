@@ -281,7 +281,7 @@
           <button class="accordion-header">Excel: Managing and Analyzing Data | Certificate <span class="accordion-toggle">⌵</span> </button>
           <div class="accordion-panel">
             <div class="media-grid">
-              <iframe src="img/ExcelData.pdf" style="width: 400px; height: 315px;"></iframe>
+              <img src="img/ExcelData.png" class="media-item">
             </div>
           </div>
         </div>
@@ -355,7 +355,7 @@
           <button class="accordion-header">Web accessibility | Certificate <span class="accordion-toggle">⌵</span> </button>
           <div class="accordion-panel">
             <div class="media-grid">
-              <iframe src="img/saavutettavuus.pdf" style="width: 400px; height: 315px;"></iframe>
+              <img src="img/saavutettavuus.png" class="media-item">
 
             </div>
           </div>
