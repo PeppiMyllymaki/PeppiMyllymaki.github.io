@@ -266,7 +266,7 @@
 
       <li class="skill">
         <span class="skill-name">Programming</span>
-        <span class="skill-projects"><br><br>Kuura Murder Mystery 3 <br> Python</span>
+        <span class="skill-projects"><br><br>Kuura Murder Mystery 3 <br> Python <br></span>
         <span class="skill-courses">Programming <br> Game programming (+ Applied, Advanced) <br> Object oriented programming <br> Software architecture and game programming patterns <br> Backend programming <br> Operating environments of online games</span>
       </li>
     </ul>
