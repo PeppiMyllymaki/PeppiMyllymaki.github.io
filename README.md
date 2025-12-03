@@ -34,7 +34,9 @@
                 and I’ve created several websites both with and without frameworks. 
                 I also have experience in 3D modeling, animation, photogrammetry, Blender, 
                 XAMPP, and graphic design. Lately I’ve been expanding my skills in working with data, 
-                Excel and basic data processing workflows.
+                Excel and basic data processing workflows. I also have experience in using 
+                Large Language AI Models such as ChatGPT to process data and information, 
+                plan and iterate, as well as assist in work effectively and efficiently.
                 <br><br>
                 My working style is calm, responsible and thorough. I’m comfortable taking initiative, 
                 guiding a team when needed, and learning new tools quickly. I’m especially motivated 
