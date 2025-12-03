@@ -391,6 +391,7 @@ body {
     gap: 20px;               
     padding: 8px 12px;        
   }
+}
 
   .about-content img.profile-pic,
   .profile-pic {
@@ -399,6 +400,7 @@ body {
     height: 180px;
     border-width: 14px;       
   }
+}
 
   .about-content p {
     max-width: 100%;           
@@ -456,7 +458,7 @@ body {
   justify-content: center !important;
   gap: 2rem !important;
   width: 100%;
-  background-color: #1a1a1a;
 }
+
 
 
