@@ -273,19 +273,6 @@ body {
   object-fit: contain;
 }
 
-.modal-content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-}
-
-.modal-content img,
-.modal-content iframe {
-  margin: 0 auto;
-  display: block;
-}
-
 .close{
   position:absolute;
   top:10px;
@@ -472,6 +459,7 @@ body {
   gap: 2rem !important;
   width: 100%;
 }
+
 
 
 
