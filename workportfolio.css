@@ -449,3 +449,12 @@ body {
   }
 }
 
+.skills-grid,
+.skills-section .grid {
+  display: flex !important;
+  flex-wrap: wrap;
+  justify-content: center !important;
+  gap: 2rem !important;
+  width: 100%;
+}
+
