@@ -117,7 +117,7 @@
                 <b>Result</b>
                 <br>
                 This is an ongoing project aimed at producing a visually engaging, accessible, and efficient website that enhances the client’s 
-                brand and user experience. The website is scheduled for completion by the end of the year (2025).
+                brand and user experience. The website is scheduled for completion by the end of January 2026.
                 <br>
             </p>
     
