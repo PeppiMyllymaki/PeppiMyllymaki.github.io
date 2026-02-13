@@ -42,9 +42,6 @@
                 guiding a team when needed, and learning new tools quickly. I’m especially motivated 
                 by projects where I can merge code, visual storytelling and interactive design.
                 <br><br>
-                I’m looking for a role where I can create impactful digital experiences; whether 
-                through data-driven visuals, interactive stories, game-like experiences, or new experimental 
-                formats that mix design and code.
             </p>
         </div>
     </section>
@@ -98,9 +95,9 @@
     <button class="accordion-header">SAK:n Lohjan paikallisjärjestö | Website developer & Graphic design <span class="accordion-toggle">⌵</span> </button>
     <div class="accordion-panel">
             <p class="accordion-text">
-                I am designing and developing a modern and visually appealing website for SAK Lohja using the Yhdistysavain tool, following the client’s 
+                I designed and developed a modern and visually appealing website for SAK Lohja using the Yhdistysavain tool, following the client’s 
                 specifications. The project focuses on improving accessibility, streamlining workflows by implementing online forms, and creating a cohesive 
-                brand identity, including designing a new logo. The goal is to deliver a professional, user-friendly site that reflects the client’s values 
+                brand identity, including designing a new logo. The goal was to deliver a professional, user-friendly site that reflects the client’s values 
                 and enhances their digital presence.
                 
                 <br><br>
@@ -116,8 +113,8 @@
                 <br>
                 <b>Result</b>
                 <br>
-                This is an ongoing project aimed at producing a visually engaging, accessible, and efficient website that enhances the client’s 
-                brand and user experience. The website is scheduled for completion by the end of January 2026.
+                A polished, responsive and visually cohesive website that aligned with the client’s needs. The project demonstrated my ability to independently manage a full web development pipeline; from 
+                design and UX decisions to technical implementation and client collaboration.
                 <br>
             </p>
     
