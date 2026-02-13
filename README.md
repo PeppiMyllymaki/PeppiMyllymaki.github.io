@@ -117,6 +117,9 @@
                 design and UX decisions to technical implementation and client collaboration.
                 <br>
             </p>
+            <a href="https://lohja.paikallisjarjesto.fi/" target="_blank" class="accordion-button">
+            Visit the website →
+        </a>
     
     </div>
     </div>
