@@ -51,7 +51,7 @@
       <div class="accordion">
 
       <div class="accordion-item">
-    <button class="accordion-header">Studeio Pilke | Website developer <span class="accordion-toggle">⌵</span></button>
+    <button class="accordion-header">Studio Pilke | Website developer <span class="accordion-toggle">⌵</span></button>
     <div class="accordion-panel">
     
         <p class="accordion-text">
