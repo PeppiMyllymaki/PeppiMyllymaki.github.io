@@ -50,6 +50,26 @@
       <h2>Web development work</h2>
       <div class="accordion">
 
+      <div class="accordion-item">
+    <button class="accordion-header">Studeio Pilke | Website developer <span class="accordion-toggle">⌵</span></button>
+    <div class="accordion-panel">
+    
+        <p class="accordion-text">
+            I'm currently working on this. Stay tuned!
+        </p>
+    </div>
+    </div>
+
+    <div class="accordion-item">
+    <button class="accordion-header">California Kotka | Website developer <span class="accordion-toggle">⌵</span></button>
+    <div class="accordion-panel">
+    
+        <p class="accordion-text">
+            I'm currently working on this. Stay tuned!
+        </p>
+    </div>
+    </div>
+
     <div class="accordion-item">
     <button class="accordion-header">XAMK Gamelab | Website developer <span class="accordion-toggle">⌵</span></button>
     <div class="accordion-panel">
