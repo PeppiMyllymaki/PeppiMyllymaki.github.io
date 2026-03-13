@@ -11,6 +11,7 @@
     <nav>
       <a href="#about">About me</a>
       <a href="#websites">Web development work</a>
+      <a href="#marketing">Digital Communication & Marketing</a>
       <a href="#work">Other work experience</a>
       <a href="#projects">Projects & skills</a>
       <a href="#education">Education</a>
@@ -25,22 +26,36 @@
         <div class="about-content">
             <img src="img/pikkupeppi.png" alt="My Photo" class="profile-pic">
             <p>
-                I'm a game programming engineering student finishing my degree. I combine my 
-                technical coding skill with strong visual and creative capabilities.
-                I enjoy building things that sit between storytelling, design and technology; 
-                from websites to 3D visuals, interactive experiences and videogames.
+                I’m a game programming engineering student finishing my degree, 
+                with a strong interest in digital communication, visual design, 
+                and web development. I enjoy creating digital experiences that 
+                combine technology, design, and storytelling - such as websites, 
+                3D visuals, interactive systems, and videogames.
                 <br><br>
-                I work with C#, C++, Unity, Unreal Engine, HTML, CSS and JavaScript, 
-                and I’ve created several websites both with and without frameworks. 
-                I also have experience in 3D modeling, animation, photogrammetry, Blender, 
-                XAMPP, and graphic design. Lately I’ve been expanding my skills in working with data, 
-                Excel and basic data processing workflows. I also have experience in using 
-                Large Language AI Models such as ChatGPT to process data and information, 
-                plan and iterate, as well as assist in work effectively and efficiently.
+                I have hands-on experience with HTML, CSS, JavaScript, and modern 
+                web tools, having developed multiple websites for organizations 
+                and companies, both with and without frameworks. I also produce 
+                visual marketing materials, social media graphics, and event 
+                promotion assets. In games, I work with C#, C++, Unity, and Unreal Engine.
                 <br><br>
-                My working style is calm, responsible and thorough. I’m comfortable taking initiative, 
-                guiding a team when needed, and learning new tools quickly. I’m especially motivated 
-                by projects where I can merge code, visual storytelling and interactive design.
+                Beyond programming, I work with 3D modeling, animation, photogrammetry, 
+                Blender, XAMPP, and graphic design. Recently, I’ve been expanding into 
+                data workflows, Excel, and using AI tools like ChatGPT to process 
+                information, plan projects, and improve efficiency.
+                <br><br>
+                Alongside technical work, I have extensive experience in customer 
+                service and event volunteering. I’ve worked in retail and festival 
+                settings, handled sales, cashier duties, restocking, and event organization, 
+                and collaborated with teams in fast-paced environments. These experiences 
+                have strengthened my communication skills, teamwork, and ability to work 
+                effectively under pressure.
+                <br><br>
+                I enjoy visual communication - designing layouts, illustrations, and 
+                digital content that help organizations present ideas clearly and 
+                attractively. My working style is calm, responsible, and thorough. 
+                I’m comfortable taking initiative, guiding a team when needed, and 
+                learning new tools quickly. Collaborating with teams to bring creative 
+                and technical ideas together is something I particularly enjoy.
                 <br><br>
             </p>
         </div>
@@ -225,6 +240,52 @@
 
 
       </div>
+    </section>
+
+    <section id="communication" class="section">
+      <h2>Digital Communication & Marketing</h2>
+
+      <p>
+      I have hands-on experience producing social media content and digital marketing 
+      materials through university promotion work, volunteer activities and freelance 
+      design projects. My work has included planning posts, photographing events, 
+      writing captions and publishing content across Instagram and Facebook.
+      </p>
+
+       <ul>
+        <li>
+        <strong>University event promotion (Instagram Stories)</strong><br>
+        Photographed student events and created Instagram Story posts for the official 
+        university account. I planned the narrative of the posts, captured images that 
+        represented the event clearly, and wrote short informative captions designed 
+        to keep viewers engaged while communicating key information about the event 
+        and our study field.
+        </li>
+        <br>
+        <li>
+        <strong>Volunteer organization social media</strong><br>
+        Photographed volunteer activities and created posts explaining what we had done 
+        and why the work was important. Content was published on the organization’s 
+        Instagram and Facebook channels.
+        </li>
+        <br>
+        <li>
+        <strong>Event marketing materials for Ylioppilaskunnan Soittajat</strong><br>
+        Designed a full set of promotional materials including posters, banners, 
+        brochures and social media graphics used to promote a concert event both 
+        online and in print. See more <a href="#work">here.</a>
+        </li>
+        <br>
+        <li>
+        <strong>XAMK promotion and outreach</strong><br>
+        Represented my study program at upper secondary schools and the Studia 
+        education fair. I also helped promote study-related events online and 
+        participated in communication efforts to attract new students to the field.
+        </li>
+      </ul>
+
+      <p><strong>Tools used:</strong> Instagram, Facebook, Procreate drawing program, Canva graphic design platform</p>
+
     </section>
 
     <section id="projects" class="section">
