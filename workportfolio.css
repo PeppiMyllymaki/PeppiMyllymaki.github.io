@@ -63,8 +63,19 @@ body {
   font-weight:700;
   text-shadow:1px 1px 4px rgba(0,0,0,0.3);
 }
+
+.site-header nav{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px 26px;
+  align-items: center;
+}
+
 .site-header nav a{
-  margin-left:20px;
+  margin-left:0;
+  padding:6px 10px;
+  border-radius:6px;
+  line-height:1;
   text-decoration:none;
   color: var(--lavender-white);
   font-weight:600;
@@ -263,14 +274,14 @@ body {
 
 .modal-content img,
 .modal-content iframe {
-  max-width: 90vw;
-  max-height: 80vh;
-  width: auto;
-  height: auto;
+  max-width: 90vw;   /* never wider than 90% of viewport width */
+  max-height: 80vh;  /* never taller than 80% of viewport height */
+  width: auto;       /* keep natural width if smaller */
+  height: auto;      /* keep natural height if smaller */
   display: block;
-  margin: 0 auto;
+  margin: 0 auto;    /* center inside modal */
   border-radius: 12px;
-  object-fit: contain;
+  object-fit: contain; /* maintain aspect ratio without cropping */
 }
 
 .close{
@@ -283,7 +294,6 @@ body {
   cursor:pointer;
 }
 
-/* -------- FILE LIST -------- */
 .file-list{margin-top:20px;}
 .file-row{
   padding:12px;
@@ -316,7 +326,7 @@ body {
   background: rgba(255, 83, 212, 0.35);
 }
 
-/* Skills overview - Frosted glass lavender */
+
 .skills-overview {
   padding: 28px 22px;
   margin-bottom: 32px;
@@ -332,7 +342,6 @@ body {
   margin-bottom: 12px;
 }
 
-/* Grid */
 .skills-list {
   list-style:none;
   display:grid;
@@ -341,7 +350,7 @@ body {
   padding:0;
 }
 
-/* Card */
+
 .skill {
   padding:14px 16px;
   border-radius:12px;
@@ -370,7 +379,7 @@ body {
 .skill-courses {
   font-size: 13px;
   font-weight: 600;
-  color: #ff53d4; /* pink highlight */
+  color: #ff53d4; 
   opacity: 0.9;
 }
 
@@ -384,6 +393,24 @@ body {
 }
 
 @media (max-width: 900px) {
+  .site-header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .site-header nav a{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px 20px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .site-header nav a {
+    margin-left: 0;
+  }
+
   .about-content {
     flex-direction: column;   
     align-items: center;      
@@ -407,8 +434,8 @@ body {
   }
 
   .section {
-    padding: 40px 18px; 
-  }
+    padding: 40px 18px;   
+  }    
 }
 
 @media (max-width: 600px) {
@@ -422,7 +449,7 @@ body {
     height: 140px;
     border-width: 12px;
     transition: transform 0.2s ease;
-  }
+  } 
 
   .profile-pic:hover { transform: none; } 
 
@@ -459,9 +486,3 @@ body {
   gap: 2rem !important;
   width: 100%;
 }
-
-
-
-
-
-
