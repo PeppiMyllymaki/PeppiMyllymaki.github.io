@@ -45,6 +45,10 @@ body {
 }
 
 /* -------- HEADER -------- */
+.header{
+  padding:0;
+  margin:0;
+}
 .site-header{
   display:flex;
   justify-content:space-between;
