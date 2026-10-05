@@ -17,43 +17,102 @@ window.addEventListener("click", e => {
 
 // Close modal
 closeModal.addEventListener("click", () => modal.classList.remove("show"));
-modal.addEventListener("click", e => { if (e.target === modal) modal.classList.remove("show"); });
+
+modal.addEventListener("click", e => {
+    if (e.target === modal) modal.classList.remove("show");
+});
+
 
 // Accordion functionality
 const accordionHeaders = document.querySelectorAll('.accordion-header');
+
 accordionHeaders.forEach(header => {
     header.addEventListener('click', () => {
+        const item = header.parentElement;
         const panel = header.nextElementSibling;
-        const isOpen = panel.style.maxHeight && panel.style.maxHeight !== '0px';
+        const isOpen = item.classList.contains('active');
 
-        // Close all panels
-        document.querySelectorAll('.accordion-panel').forEach(p => p.style.maxHeight = null);
+        // Close all accordion items
+        document.querySelectorAll('.accordion-item').forEach(i => {
+            i.classList.remove('active');
+            i.querySelector('.accordion-panel').style.maxHeight = null;
+        });
 
-        // Toggle current panel
+        // Open clicked item if it was previously closed
         if (!isOpen) {
+            item.classList.add('active');
             panel.style.maxHeight = panel.scrollHeight + 'px';
         }
     });
 });
 
-const headers = document.querySelectorAll('.accordion-header');
 
-headers.forEach(header => {
-  header.addEventListener('click', () => {
-    const item = header.parentElement;
-    const panel = header.nextElementSibling;
+// Open ROTYX accordion from "See more here" link
+const rotyxLink = document.querySelector('a[href="#rotyx"]');
 
-    const isOpen = item.classList.contains('active');
+if (rotyxLink) {
+    rotyxLink.addEventListener('click', e => {
+        e.preventDefault();
 
-    // Close all items
-    document.querySelectorAll('.accordion-item').forEach(i => {
-      i.classList.remove('active');
-      i.querySelector('.accordion-panel').style.maxHeight = null;
+        const rotyx = document.getElementById('rotyx');
+        const header = rotyx.querySelector('.accordion-header');
+
+        // Open the accordion if it's closed
+        if (!rotyx.classList.contains('active')) {
+            header.click();
+        }
+
+        // Scroll to it
+        rotyx.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+        });
     });
+}
 
-    if (!isOpen) {
-      item.classList.add('active');
-      panel.style.maxHeight = panel.scrollHeight + 'px';
-    }
-  });
-});
+// Open soittajat accordion from "See more here" link
+const soittajatLink = document.querySelector('a[href="#soittajat"]');
+
+if (soittajatLink) {
+    soittajatLink.addEventListener('click', e => {
+        e.preventDefault();
+
+        const soittajat = document.getElementById('soittajat');
+        const header = soittajat.querySelector('.accordion-header');
+
+        // Open the accordion if it's closed
+        if (!soittajat.classList.contains('active')) {
+            header.click();
+        }
+
+        // Scroll to it
+        soittajat.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+        });
+    });
+}
+
+
+// Open gametech accordion from "See more here" link
+const gametechLink = document.querySelector('a[href="#gametech"]');
+
+if (gametechLink) {
+    gametechLink.addEventListener('click', e => {
+        e.preventDefault();
+
+        const gametech = document.getElementById('gametech');
+        const header = gametech.querySelector('.accordion-header');
+
+        // Open the accordion if it's closed
+        if (!gametech.classList.contains('active')) {
+            header.click();
+        }
+
+        // Scroll to it
+        gametech.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+        });
+    });
+}
