@@ -4,32 +4,50 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Portfolio Peppi myllymäki</title>
   <link rel="stylesheet" href="workportfolio.css"/>
-</head>
-<!-- Include Lightbox CSS (for pop-up feature) 
+  <!-- Include Lightbox CSS (for pop-up feature) -->
 <link href="https://cdn.jsdelivr.net/npm/lightbox2@2.11.3/dist/css/lightbox.min.css" rel="stylesheet">
-Include Lightbox JS (for pop-up functionality) 
-<script src="https://cdn.jsdelivr.net/npm/lightbox2@2.11.3/dist/js/lightbox-plus-jquery.min.js"></script>
--->
+<!--Include Lightbox JS (for pop-up functionality) 
+<script src="https://cdn.jsdelivr.net/npm/lightbox2@2.11.3/dist/js/lightbox-plus-jquery.min.js"></script>-->
+
+</head>
+
 <body>
   <header class="site-header">
-    <h1>Peppi Myllymäki</h1>
-    <nav>
+    <nav class="desktop-nav">
       <a href="#about">About me</a>
-      <a href="#websites">Web development work</a>
-      <a href="#marketing">Digital Communication & Marketing</a>
+      <a href="#websites">Web development work experience</a>
+      <a href="#marketing">Marketing experience</a>
+      <h1>Peppi Myllymäki</h1>
       <a href="#work">Other work experience</a>
       <a href="#projects">Projects & skills</a>
       <a href="#education">Education</a>
       <a href="#contact">Contact</a>
     </nav>
+    <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+      <img src="img/menu.png" alt="Menu">
+    </button>
+    <nav class="mobile-nav" id="mobileNav">
+      <h1>Peppi Myllymäki</h1>
+      <a href="#about" onclick="toggleMobileMenu()">About me</a>
+      <a href="#websites" onclick="toggleMobileMenu()">Web development work experience</a>
+      <a href="#marketing" onclick="toggleMobileMenu()">Marketing experience</a>
+      <a href="#work" onclick="toggleMobileMenu()">Other work experience</a>
+      <a href="#projects" onclick="toggleMobileMenu()">Projects & skills</a>
+      <a href="#education" onclick="toggleMobileMenu()">Education</a>
+      <a href="#contact" onclick="toggleMobileMenu()">Contact</a>
+    </nav>
   </header>
 
   <main>
+     <div class="profile-frame centered">
+              <img src="img/pikkupeppi.png"
+                  alt="My Photo"
+                  class="profile-pic">
+              <span class="ribbon ribbon-extra"></span>
+          </div>
     <!-- About Section -->
     <section id="about" class="section">
         <h2>About Me</h2>
-        <div class="about-content">
-            <img src="img/pikkupeppi.png" alt="My Photo" class="profile-pic">
             <p>
                 I’m a soon-to-graduate Bachelor of Engineering student in Game Programming 
                 at XAMK, with a multidisciplinary background spanning web development, 
@@ -111,9 +129,10 @@ Include Lightbox JS (for pop-up functionality)
                 integrated into a business website.
                 <br>
             </p>
+            
             <a href="" target="_blank" class="accordion-button">
             Published soon!
-        </a>
+            </a>
     </div>
     </div>
 
@@ -196,6 +215,13 @@ Include Lightbox JS (for pop-up functionality)
             <br>
             Currently the first version is up, and the second and final rendition is waiting for approval from management. The second rendition has many new pages, 
             features and polish.
+            <div class="media-grid">
+             <iframe width="560" height="315" src="https://www.youtube.com/embed/swJsEp29v4Q?si=2Z5uC--eHUDhq7AP"
+             title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+             encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
+             allowfullscreen></iframe>
+             <br>
+            </div>
         </p>
     
         <a href="https://gamelab.fi/" target="_blank" class="accordion-button">
@@ -501,7 +527,7 @@ Include Lightbox JS (for pop-up functionality)
                   <b>What I did</b>
                   <br>
                   <ul class="accordion-list">
-                  <li>Created 60+ 3D models of statues and artworks located around Kotka using photogrammetry.</li>
+                  <li>Created 70+ 3D models of statues and artworks located around Kotka using photogrammetry.</li>
                   <li>Captured photographic data from multiple angles to reconstruct real-world objects as detailed 3D assets.</li>
                   <li>Used Epic Games’ RealityScan to process photographs and generate initial 3D models.</li>
                   <li>Cleaned, repaired and modified photogrammetry-generated models in Blender.</li>
@@ -526,6 +552,14 @@ Include Lightbox JS (for pop-up functionality)
                   me to work with real-world objects and transform them into usable digital assets while developing a hands-on 
                   understanding of the workflow from photographic capture to a finished 3D model.
                   <br>
+                  <div class="media-grid">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/EGQytSUX9j8?si=LoDQAxLgdu8ZngUX" 
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+                    encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
+                    allowfullscreen></iframe>
+                    <br>
+                  </div>
+                  
 
                   <a href="https://sketchfab.com/eijesseauta/collections/statues-of-kotka-56f1d00ab03142c8b7e098a71ff8fa86" target="_blank" class="accordion-button">
                       See the models in my sketchfab →
@@ -936,7 +970,7 @@ Include Lightbox JS (for pop-up functionality)
              encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
              allowfullscreen></iframe>
              <br>
-             </div>
+            </div>
              <div class="media-grid">
              <iframe width="560" height="315" src="https://www.youtube.com/embed/3t7M_1VFqgU?si=TK05yoSTWV0Datqx" 
              title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
@@ -960,7 +994,7 @@ Include Lightbox JS (for pop-up functionality)
                 <br><br>
                 <b>What I did</b>
                 <ul class="accordion-list"> 
-                  <li>Created and processed 60+ 3D models of statues, sculptures, and cultural objects using photogrammetry.</li> 
+                  <li>Created and processed 70+ 3D models of statues, sculptures, and cultural objects using photogrammetry.</li> 
                   <li>Captured real-world objects and experimented with different scanning approaches to achieve usable results.</li> 
                   <li>Used RealityScan for photogrammetry and Blender for cleaning, repairing, editing, and preparing 3D models.</li> 
                   <li>Cleaned and optimized scanned geometry to improve the quality and usability of the models.</li> 
@@ -1258,7 +1292,15 @@ Include Lightbox JS (for pop-up functionality)
     </div>
   </div>
 
+  <div id="cursor-trail"></div>
+
   <script src="workportfolio.js"></script>
   <script src="/lightbox2-2.11.5/dist/js/lightbox-plus-jquery.min.js"></script>
+  <script>
+    function toggleMobileMenu() {
+    const menu = document.getElementById("mobileNav");
+    menu.classList.toggle("active");
+    }
+  </script>
 </body>
 </html>
